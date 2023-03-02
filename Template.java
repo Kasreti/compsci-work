@@ -6,35 +6,25 @@ PrX.Y:
   
 */
 
+import java.lang.Math;
 public class Template{
-	public static void main(String[] args){
-		double result = 0;
-		double numer = 1;
-		double denom = 1;
-		double fraction = 1;
-		double numersum = 1;
-		double denomsum = 1;
-		for (int i = 1; i<=100; i++){
-			denom = 1;
-			numer = 1;
-			numersum = 1;
-			denomsum = 1;
-			for(int j = 1; j <= i; j++){
-				numer = numer + 1;
-				numersum = numersum * numer;
-			}
-			for(int k = 1; k <= i; k++){
-				denom = denom + 2;
-				denomsum = denomsum * denom;
-			}
-			fraction = numersum/denomsum;	
-			IBIO.output("F " + fraction);
-			result = result + fraction;
+	public static void main(String args[]){
+		String num = IBIO.input("enter a binary number: ");
+		char[] binary = num.toCharArray();
+		double res = convert(binary);
+		System.out.println(num + " in denary is " + (int)res);
+	}
+	static double convert(char a[]){
+		double sum = 0;
+		int j;
+		for(int i = a.length-1; i >= 0; i--){
+			j = a[i]-48;
+			sum = sum + (j * Math.pow(2,a.length -1 - i));
 		}
-		result = result + 1;
-		IBIO.output("ans: " + result*2);
+		return sum;
+	}
 }
-}
+
 	
 
 
