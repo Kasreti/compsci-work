@@ -53,7 +53,7 @@ public class danya {
 		}
 		return -1;
 	}
-	
+		
 	public static String[] delete(String[] a, int b){
 		String[] copy = new String[a.length-1];
 		for(int i=0; i<b; i++){
