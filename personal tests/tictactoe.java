@@ -95,7 +95,7 @@ public class tictactoe {
 			if(table[i][0] == table[i][1] && table[i][0] == table[i][2] && table[i][0] != '-'){
 				return true;
 			}
-			if(table[0][i] == table[1][i] && table[0][i] == table[2][i] && table[i][0] != '-'){
+			if(table[0][i] == table[1][i] && table[0][i] == table[2][i] && table[0][i] != '-'){
 				return true;
 			}
 		}
