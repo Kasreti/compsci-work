@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class hangman {
+public class lettersorter {
 	public static String[] arrayappend(String oldarray[], String newstring){
 		int length = oldarray.length;
 		String newarray[] = new String[length + 1];
