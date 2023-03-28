@@ -65,6 +65,18 @@ public class danya {
 		return copy;
 	}
 	
+	public static String[] insert(String[] a, int b, String c){
+		String[] copy = new String[a.length+1];
+		for(int i=0; i<b; i++){
+			copy[i] = a[i];
+		}
+		copy[b] = c;
+		for(int i=b; i<a.length; i++){
+			copy[i+1] = a[i];
+		}
+		return copy;
+	}
+	
 	public static String[] nameremove(String[] a, String b){
 		String[] copy = new String[a.length-1];
 		int index = returnindex(a,b);
@@ -106,8 +118,11 @@ public class danya {
 		System.out.println("\nLet's replace Jake. ");
 		original = replace(original, 1, "sam");
 		printArray(original);
+		System.out.println("\nLet's insert Arman between Sam and Vaayu. ");
+		original = insert(original, 2, "arman");
+		printArray(original);
 		System.out.println("\nLet's swap Mike and Vaayu. ");
-		original = swap(original, 0, 2);
+		original = swap(original, 0, 3);
 		printArray(original);
 		System.out.println("\nLet's delete Sam. ");
 		original = nameremove(original, "sam");
