@@ -129,8 +129,7 @@ public class vaayu {
 		original = append(original, "vaayu");
 		System.out.println("\nLet's append Vaayu:");
 		printArray(original);
-		String search = IBIO.inputString("Search for: ");		
-		where(original, search);
+		where(original, "vaayu");
 		System.out.println("\nLet's replace Jake with Sam.");
 		original = replace(original, 1, "sam");
 		printArray(original);
