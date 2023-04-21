@@ -73,6 +73,8 @@ public class practiceq21 {
 	}
 	
 	static void lcm(int n){
+
+	}
 		
 	
 	public static void main (String[] args) {
