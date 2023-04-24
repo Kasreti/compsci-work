@@ -40,6 +40,8 @@ public class StringSort
 	
 	public static boolean check(String a, String b)
 	{
+		a = a.toLowerCase();
+		b = b.toLowerCase();
 		int until = a.length();
 		if(a.length() > b.length()){
 			until = b.length();
@@ -56,6 +58,8 @@ public class StringSort
 	
 	public static boolean invcheck(String a, String b)
 	{
+		a = a.toLowerCase();
+		b = b.toLowerCase();
 		int until = a.length();
 		if(a.length() > b.length()){
 			until = b.length();
@@ -107,7 +111,7 @@ public class StringSort
 
 	public static void main (String[] args)
 	{
-		String[] original = { "joseph", "identified", "alex", "chris", "identification", "carmen", "rent", "identify", "identification"};
+		String[] original = { "joseph", "identified", "alex", "chris", "identification", "Carmen", "rent", "identify", "identification"};
 		String[] test = {"lemon", "rabbit", "carrot", "igloo", "watermelon", "violet", "hat", "queen", "umbrella", "zebra", "orange", "dog", "apple", "frog", "tiger", "banana", "pear", "jacket", "xylophone", "elephant", "kangaroo", "grape", "napkin", "snake", "yacht", "monkey"};
 		String[] bubble = clone(original);
 		String[] insertion = clone(original);
