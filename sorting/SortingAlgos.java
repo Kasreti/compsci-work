@@ -24,7 +24,7 @@ public class SortingAlgos
 		return x;
 	}
 
-	public static void selectionSort(int[] a)
+	public static void selectionSortPseudo(int[] a)
 	{
 		int currentIndex = 0;
 		while( currentIndex < a.length - 1 )
@@ -46,6 +46,20 @@ public class SortingAlgos
 			currentIndex++;
 			System.out.print("\t");
 			printArray(a);
+		}
+	}
+	
+	public static void selectionSort(int[] a)
+	{
+		for(int i=0; i<a.length; i++){
+			int min = a[i];
+			for(int j=i+1; j<a.length; j++){
+				if(a[j] < a[i]){
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
 		}
 	}
 
