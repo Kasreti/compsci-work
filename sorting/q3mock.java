@@ -36,7 +36,7 @@ public class q3mock {
 			for(int j=0; j<scores[i].length; j++){
 				average = average + scores[i][j];
 			}
-			averages[i] = scoreToGrade(average/5);
+			averages[i] = scoreToGrade(average/scores[i].length);
 		}
         return averages;
 	}
