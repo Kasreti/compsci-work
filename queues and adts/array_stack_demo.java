@@ -1,5 +1,5 @@
 
-public class Stack
+public class array_stack_demo
 {
 	Node top = null;
 	

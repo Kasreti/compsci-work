@@ -5,13 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25d073c-5022-4615-a6e9-98c57e020443" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/cheg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/cheg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/Node.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/compsci-work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/compsci-work.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/compsci-work/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holiday work/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/holiday work/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/oop/computer task/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/computer task/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/Desktop.class" beforeDir="false" afterPath="$PROJECT_DIR$/oop/computer task/Desktop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/computer task/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/computer task/IBIO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/compsci-work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/compsci-work/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/compsci-work/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quarter 1/practiceq21.java" beforeDir="false" afterPath="$PROJECT_DIR$/quarter 1/practiceq21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/g11 compsci club.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/out/production/g11 compsci club/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/out/production/g11 compsci club/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/out/production/g11 compsci club/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/compsci-work/s1 java club/out/production/g11 compsci club/g11 compsci club.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal tests/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal tests/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal tests/tictactoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/personal tests/tictactoe_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarter 1/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarter 1/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarter 1/danya.java" beforeDir="false" afterPath="$PROJECT_DIR$/quarter 1/danyaq1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues and adts/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues and adts/IBIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues and adts/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues and adts/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues and adts/array_stack_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/queues and adts/array_stack_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/hw submission/SortingAlgos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/hw submission/StringSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/hw submission/StringSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/hw submission/stringtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test practices/IBIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test practices/IBIO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +67,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/compsci-work/queues and adts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sorting" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="vaayu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -60,24 +108,12 @@
       <updated>1678325232685</updated>
       <workItem from="1678325233245" duration="2712000" />
       <workItem from="1678930701376" duration="1265000" />
+      <workItem from="1681349209520" duration="158000" />
+      <workItem from="1696409963456" duration="2051000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="421" y="78" key="FileChooserDialogImpl" timestamp="1680061036779">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="421" y="78" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1680061036779" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1680061627665">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1680061627665" />
-    <state x="68" y="0" key="new project wizard" timestamp="1680061038117">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="68" y="0" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1680061038117" />
   </component>
 </project>

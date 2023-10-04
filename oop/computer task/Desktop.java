@@ -7,6 +7,11 @@ public class Desktop extends Computer{
 		this.GPU = GPU;
 	}
 	
+	public Desktop(String name, int primaryMemory, int secondaryMemory, String GPU){
+		super(name, primaryMemory, secondaryMemory);
+		this.GPU = GPU;
+	}
+	
 	public void setGPU(String gpu){
 		this.GPU = gpu;
 	}

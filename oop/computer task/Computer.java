@@ -1,4 +1,4 @@
-public abstract class Computer
+public class Computer
 {
 
 	private String name;
@@ -12,6 +12,13 @@ public abstract class Computer
 		this.primaryMemory   = primaryMemory;
 		this.secondaryMemory = secondaryMemory;
 		this.CPU = CPU;
+	}
+	
+	public Computer(String name, int primaryMemory, int secondaryMemory)
+	{
+		this.name = name;
+		this.primaryMemory   = primaryMemory;
+		this.secondaryMemory = secondaryMemory;
 	}
 
 	public String getName()
@@ -54,8 +61,6 @@ public abstract class Computer
 	public String getCPU(){
 		return this.CPU;
 	}
-
-	public abstract double calculateVirtualMemory();
 
 	public String toString()
 	{
